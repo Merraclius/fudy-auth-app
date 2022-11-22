@@ -11,8 +11,6 @@ services:
     command: "npm run start:dev"
     env_file:
       - .env
-    depends_on:
-      - app_install
   app_install:
     image: node:16.6.0
     volumes:

@@ -9,13 +9,17 @@ Test assignment with auth service with a couple of endpoints.
 All endpoints with parameters can be found in Swagger 
 
 ## Installation
-Installation happens automatically on the first run
+
+```bash
+# docker
+$ docker-compose up app_install
+```
 
 ## Running the app
 
 ```bash
 # docker
-$ docker-compose up -d
+$ docker-compose up -d app db
 
 # container logs in follow mode
 $ docker-compose logs -f app
