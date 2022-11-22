@@ -9,16 +9,16 @@ Test assignment with auth service with a couple of endpoints.
 All endpoints with parameters can be found in Swagger 
 
 ## Installation
-
-```bash
-$ npm install
-```
+Installation happens automatically on the first run
 
 ## Running the app
 
 ```bash
 # docker
 $ docker-compose up -d
+
+# container logs in follow mode
+$ docker-compose logs -f app
 
 # swagger URL
 http://127.0.0.1:3000/api
